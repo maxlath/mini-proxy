@@ -1,7 +1,7 @@
 {
   "name": "mini-proxy",
   "version": "1.0.0",
-  "description": "",
+  "description": "minimalist URL-based proxy",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -10,8 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "maxlath",
+  "license": "AGPL-3.0",
   "dependencies": {
     "add-to-systemd": "^2.1.2",
     "config": "^3.1.0",
@@ -21,5 +21,13 @@
   },
   "devDependencies": {
     "supervisor": "^0.12.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxlath/mini-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxlath/mini-proxy/issues"
+  },
+  "homepage": "https://github.com/maxlath/mini-proxy#readme"
 }
