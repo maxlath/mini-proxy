@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# env "PATH=$PATH" allows to resolve 'which node' in sudo mode
+# --env PATH="$PATH" is required to make #!/usr/bin/env node resolvable
+sudo env "PATH=$PATH" ./node_modules/.bin/add-to-systemd \
+  --env FORCE_COLOR=true \
+  --env PATH="$PATH" \
+  mini-proxy "$(which node) $(pwd)/server.js"
